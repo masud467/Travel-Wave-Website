@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+/* Shared styles */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+     /* header section */
+/* navbar styles */
+.navbar-container{
+    max-width: 1180px;
+    /* height: 60px; */
+    /* border: 2px solid blueviolet; */
+    margin: 0 auto; 
+    display: flex;
+}
+
+.navbar-image{
+    /* border: 2px solid red;
+    width: 50%;
+    height: 60px; */
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 50%;
+    /* border: 2px solid red; */
+    margin-right: 390px;
+}
+
+.navbar-image img{
+    width: 48px;
+    height: 56px;
+    object-fit: cover;
+}
+.navbar-image p{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.navbar-image span{
+    color: #FF5400;
+}
+.navbar-content{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    /* justify-content: space-between; */
+    gap: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.navbar-content a{
+    text-decoration: none;
+    color:#424247;
+    font-size: 18px;
+}
+.navbar-content span{
+    color: #FF5400;
+}
+
+/* banner styles */
+.banner{
+    max-width: 1180px;
+    height: 500px;
+    margin: 0 auto;
+    position: absolute;
+    /* border: 2px solid blue; */
+    text-align: center;
+    padding: 0 auto;
+    margin-left: 90px;
+    
+}
+.banner img{
+    width: 1180px;
+    height: 500px;   
+}
+.banner-title{
+    position: relative;
+    bottom: 400px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-top: 24px;
+
+}
+.banner-description{
+    position: relative;
+    bottom: 376px;
+    color: #FFF;
+    text-align: center;
+    line-height: 26px; /* 162.5% */
+    margin-left: 287px;
+    margin-right: 287px;
+}
+.banner-btn{
+    position: relative;
+    bottom: 328px;
+    display: inline-flex;
+    padding: 16px;
+    /* align-items: flex-start; */
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+}
+
+.btn{
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 8px;
+    text-align: start;
+    border: none;
+}
+
+#btn-span{
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+
+
+

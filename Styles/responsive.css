@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+/* Shared styles */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    background: #FFF;
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar-container{
+        /* flex-direction: column;
+        align-items: center;
+         align-items: center;   */
+         width: 375px;
+         height: 64px;
+         align-items: center;
+         margin-bottom: 0;
+
+     }
+    .navbar-image{
+        margin-right: 50px;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .navbar-image img{
+        width: 28.724px;
+        height: 33.516px;
+        object-fit: cover;
+
+    }
+    .navbar-image p{
+        font-size: 21.543px;
+    }
+    
+    .navbar-content{
+        display: none;
+        
+    }
+    .navbar-icon{
+        display: contents;
+        display: inline-flex;
+        align-items: center;
+        margin-right: 20px;
+        width: 24px;
+        height: 24px;
+
+    }
+
+
+    /* .banner-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+    } */
+    .banner{
+        /* width: 335px;
+        height: 483px;
+        margin: 20px;
+         */
+         /* margin-right: 20px;
+         margin-left: 20px;
+         margin-top: 0; */
+         align-items: center;
+    
+    }
+    .banner img {
+         width: 335px;
+        height: 483px;
+        object-fit: cover; 
+        
+    }
+    .banner-title{
+        font-size: 22px;
+        bottom: 470px;
+       
+       
+
+        
+    }
+    .banner-description{
+        font-size: 14px;
+        margin-left: 5px;
+        margin-right: 5px;
+        bottom: 460px;
+        width: 304px;
+        
+    }
+    .banner-btn{
+        display: flex;
+        flex-direction: column; 
+        width: 287px;
+        padding: 16px;
+        align-items: center;
+        gap: 16px;
+        bottom: 450px;
+        left: 6px;
+       
+
+        
+    }
+    .btn, #btn-span{
+        width: 255px;
+        height: 52px;
+
+    }
+
+    .tours{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 450px;
+       
+        
+        
+    
+    }
+
+    .tours-image img{
+        width: 335px;
+        height: 342px;
+        /* padding-left: 0px;
+        /* margin-left: 10px; */
+        /* margin-right: 50px; */ */
+        /* align-items: center; */
+        border-radius: 16px;
+        width: auto;
+       
+
+
+    }
+
+    .tours-content{
+        width: 335px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .tours-image{
+        width: 335px;
+        width: auto;
+        
+
+    }
+    .tours-btn{
+        
+    
+        margin-left: 20px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .destination-image{
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr); */
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -283,6 +283,18 @@ body{
         
         margin-top: 10px;
     }
+
+    .deals-image-card1 img,.deals-image-card2 img,.deals-image-card3 img{
+        width: 335px;
+        height: 500px;
+        object-fit: cover;
+
+    }
+    .deals-card1,.deals-card2,.deals-card3{
+        width: 303px;
+        height: 297px;
+
+    }
     
 
 }

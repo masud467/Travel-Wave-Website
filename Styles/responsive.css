@@ -244,6 +244,45 @@ body{
        
        
     }
+    .packages-card{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .packages-container{
+        /* border: 2px solid red; */
+        /* width: 1180px; */
+        
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+       
+        
+    }
+
+    .packages-card1 p{
+        padding-left: 10px;
+        padding-right: 10px;
+    
+    }
+    
+    .packages-card2 p{
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+
+    .packages-card1{
+        margin-left: 100px;
+        
+    }
+    .packages-card2{
+        margin-left: 100px;
+    }
+
+    .packages-btn{
+        
+        margin-top: 10px;
+    }
     
 
 }

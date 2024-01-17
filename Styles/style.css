@@ -210,7 +210,20 @@ body{
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 24px;
+}
 
+.grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6,.grid-item7{
+    position: relative;
+}
+.maldives,.indonesia,.srilanka,.north-america,.kashmir,.bangladesh,.bandarban{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
 }
 
 .destination-image img{
@@ -459,7 +472,66 @@ span{
     margin-top: 50px;
 }
 
+/* packages-container styles */
 
+.packages-container{
+    /* border: 2px solid red; */
+    max-width: 1180px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+.packages-container h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+
+.packages-card{
+    /* border: 2px solid blue; */
+    display: flex;
+    text-align: center;
+    gap: 150px;
+    justify-content: center;
+}
+.packages-card1{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    border-radius: 16px;
+    background-color: cadetblue;
+}
+
+.packages-card2{
+    /* border: 2px solid green; */
+    max-width: 50%;
+    border-radius: 16px;
+    background-color: aquamarine;
+}
+
+.packages-card1 p{
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.packages-card2 p{
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+
+.packages-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+ 
 
 
 

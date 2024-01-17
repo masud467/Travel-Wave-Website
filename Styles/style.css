@@ -298,11 +298,13 @@ body{
     
 }
 .card1, .card2, .card3{
-    width: 573px;
+    width: 543px;
     height: 284px; 
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+    padding-left: 30px;
+    padding-top: 30px;
 }
 .card2{
     border-radius: 16px;
